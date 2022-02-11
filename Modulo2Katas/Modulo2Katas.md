@@ -15,7 +15,7 @@ Crea un entorno virtual mediante ``venv``
     ```
     Ahora tienes un directorio (folder) ``env`` creado en tu terminal.
     
-  ![Crear entorno Virtual](img/1.PNG)  
+  ![Crear entorno Virtual](img/1.png)  
   
 * Ejecuta el comando para activar el entorno virtual: ``source env/bin/activate``
 
@@ -30,7 +30,7 @@ Crea un entorno virtual mediante ``venv``
 
 Ahora ves en tu terminal ``(env)``. Eso significa que has activado tu entorno virtual y se ha aislado del resto de tu máquina.
 
-   ![Activar entorno Virtual](img/2.PNG)
+   ![Activar entorno Virtual](img/2.png)
 
 ## Instalar una biblioteca
 
@@ -41,7 +41,7 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     ```
     pip freeze
     ```
-    ![No hay bibliotecas](img/3.PNG)
+    ![No hay bibliotecas](img/3.png)
 
     No deberías obtener respuesta. A continuación, veamos cómo cambia la salida de ``pip freeze`` cuando se agrega una biblioteca (un paquete).
 
@@ -49,7 +49,7 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
    ```
    pip install python-dateutil
    ```
-   ![instalacion de paquetes](img/4.PNG)
+   ![instalacion de paquetes](img/4.png)
    
 * Un gran mensaje de salida de texto dice que está instalando tu biblioteca, y debe terminar con la siguiente oración:
 
@@ -60,7 +60,7 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     ```
     pip freeze
     ```
-    ![Ver libreria instalada](img/5.PNG)
+    ![Ver libreria instalada](img/5.png)
     
 * Ahora deberías ver la siguiente lista:
     ```
@@ -77,16 +77,16 @@ Ejecuta el comando ``deactivate``:
 ```
 deactivate
 ```
-![](img/6.PNG)
+![](img/6.png)
 
 Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
 
 ¡Felicidades! Has logrado crear y usar correctamente un entorno virtual.
 
- ![](img/7.PNG)
+ ![](img/7.png)
  
 ### Entorno Virtual en el Directorio local
- ![](img/8.PNG)
+ ![](img/8.png)
 
 Curso Propedútico de Python para Launch X - Innovacción Virtual.
 
